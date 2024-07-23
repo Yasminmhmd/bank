@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+p, a, span, div{
+    font-size: 1.25rem
+}
+ul{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color:white;
+}
+  a:hover{}
+
+img{ max-width: 100%; }
+.text-gold{color:#D4A750;}
+.text-dark{color:#000000;}
+.text-white{color:white;}
+.bg-gold{background-color: #D4A750;}
+.bg-dark{background-color: black;}
+.container{ width:90%; margin: 0 auto;}
+.d-flex{ display: flex;}
+.space-between{ justify-content: space-between;}
+.py-1{ padding: 1% 0;}
+#logo{ width:7rem;}
+#logo{opacity: 0.8;}
+
+.active{
+    color: #D4A750;
+}
+
+.nav-items{
+    width:40%;
+    align-self: center;
+}
+.nav-items ul{
+    width:100%
+}
+.drop-down{
+    display: none;
+} 
+.banner1 , .banner2{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.back{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    transform: translate(-50%,-50%);
+    margin-top: 20%;
+    /*transform: scale(2,2);*/
+}
+
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    margin-left: 22%;
+    font-size: larger;
+    text-shadow: 2px 3px black;
+}
+.text-box h1{
+    margin-bottom: 30px;
+}
+.text-box p{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.banner1{
+    overflow: hidden;
+    animation:slide1 4s linear infinite;}
+    .banner2{
+    animation:slide2 4s linear infinite;
+    
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;}
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: hidden
+            ;
+        }
+    }
+@keyframes slide2{
+    0%{
+        visibility:hidden;}
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: visible
+            ;
+        }
+    }      
+.ba{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    margin-top: 20%;
+    /*transform: scale(2,2);*/
+
+}
+.display{
+    display: flex;
+    margin-top: 40%;
+}
+.display div{
+    align-self: self-start;
+    align-items: left;
+}
+.text{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+
+}
+.play{
+    flex-direction: row;
+}
+.animate__pulse {
+    animation-duration: 6s ;
+
+}
